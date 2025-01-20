@@ -10,7 +10,7 @@ const bot = linebot({
 
 bot.on('message', event => {
   if (event.message.type === 'text') {
-    if (event.message.text === 'plant') {
+    if (event.message.text === '隨機植物') {
       plant(event)
     }
   }
